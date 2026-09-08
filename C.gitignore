@@ -1,34 +1,36 @@
-# Prerequisites
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
+# 前置依赖文件
 *.d
 
-# Object files
+# 目标文件
 *.o
 *.ko
 *.obj
 *.elf
 
-# Linker output
+# 链接器输出
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
+# 预编译头
 *.gch
 *.pch
 
-# Libraries
+# 库文件
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# 共享对象(含 Windows DLL)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
+# 可执行文件
 *.exe
 *.out
 *.app
@@ -36,13 +38,13 @@
 *.x86_64
 *.hex
 
-# Debug files
+# 调试文件
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
+# 内核模块编译结果
 *.mod*
 *.cmd
 .tmp_versions/
@@ -51,5 +53,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# 调试信息文件
 *.dwo

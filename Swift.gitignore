@@ -1,14 +1,16 @@
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
 # Xcode
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+# gitignore 贡献者注意:记得同步更新 Global/Xcode.gitignore、Objective-C.gitignore 与 Swift.gitignore
 
-## User settings
+## 用户设置
 xcuserdata/
 
-## Obj-C/Swift specific
+## Obj-C/Swift 专属
 *.hmap
 
-## App packaging
+## 应用打包
 *.ipa
 *.dSYM.zip
 *.dSYM
@@ -19,41 +21,41 @@ playground.xcworkspace
 
 # Swift Package Manager
 #
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# 如果不想把 Swift Package Manager 依赖的源码提交进仓库,加上这几行:
 # Packages/
 # Package.pins
 # Package.resolved
 # *.xcodeproj
 #
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
+# Xcode 会自动生成这个目录(内含 .xcworkspacedata 文件和 xcuserdata),
+# 因此除非你给项目添加了包配置文件,否则不需要下面的规则
 # .swiftpm
 
 .build/
 
 # CocoaPods
 #
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
+# 我们不建议把 Pods 目录加进 .gitignore。不过请自行权衡利弊,
+# 参见:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 # Pods/
 #
-# Add this line if you want to avoid checking in source code from the Xcode workspace
+# 如果不想把 Xcode workspace 引用的源码提交进仓库,加上这一行:
 # *.xcworkspace
 
 # Carthage
 #
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# 如果不想把 Carthage 依赖的源码提交进仓库,加上这一行:
 # Carthage/Checkouts
 
 Carthage/Build/
 
 # fastlane
 #
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
+# 建议不要把截图存进 git 仓库。
+# 需要时用 fastlane 重新生成截图即可。
+# 推荐配置的更多信息见:
 # https://docs.fastlane.tools/best-practices/source-control/#source-control
 
 fastlane/report.xml
