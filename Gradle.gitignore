@@ -1,21 +1,23 @@
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
 .gradle
 **/build/
 !**/src/**/build/
 
-# Ignore Gradle GUI config
+# 忽略 Gradle GUI 配置
 gradle-app.setting
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+# 避免忽略 Gradle wrapper 的 jar 文件(.jar 通常会被忽略)
 !gradle-wrapper.jar
 
-# Avoid ignore Gradle wrapper properties
+# 避免忽略 Gradle wrapper 属性文件
 !gradle-wrapper.properties
 
-# Cache of project
+# 项目缓存
 .gradletasknamecache
 
-# Eclipse Gradle plugin generated files
+# Eclipse Gradle 插件生成的文件
 # Eclipse Core
 .project
-# JDT-specific (Eclipse Java Development Tools)
+# JDT 专属(Eclipse Java Development Tools)
 .classpath

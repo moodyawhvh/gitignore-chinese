@@ -1,14 +1,16 @@
-# Gradle files
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
+# Gradle 文件
 .gradle/
 build/
 
-# Local configuration file (sdk path, etc)
+# 本地配置文件(sdk 路径等)
 local.properties
 
-# Log/OS Files
+# 日志 / 系统文件
 *.log
 
-# Android Studio generated files and folders
+# Android Studio 生成的文件与目录
 captures/
 .externalNativeBuild/
 .cxx/
@@ -23,12 +25,12 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
-# Keystore files
+# 密钥库文件
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
+# Google 服务(如 APIs 或 Firebase)
 google-services.json
 
-# Android Profiling
+# Android 性能分析
 *.hprof

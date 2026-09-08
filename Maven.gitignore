@@ -1,3 +1,5 @@
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -10,8 +12,8 @@ buildNumber.properties
 # https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
+# Eclipse m2e 生成的文件
 # Eclipse Core
 .project
-# JDT-specific (Eclipse Java Development Tools)
+# JDT 专属(Eclipse Java Development Tools)
 .classpath
