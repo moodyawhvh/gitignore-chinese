@@ -1,16 +1,18 @@
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
 *~
 
-# temporary files which can be created if a process still has a handle open of a deleted file
+# 进程仍持有已删除文件的句柄时可能产生的临时文件
 .fuse_hidden*
 
-# Metadata left by Dolphin file manager, which comes with KDE Plasma
+# KDE Plasma 自带的 Dolphin 文件管理器留下的元数据
 .directory
 
-# Linux trash folder which might appear on any partition or disk
+# 可能出现在任意分区或磁盘上的 Linux 回收站目录
 .Trash-*
 
-# .nfs files are created when an open file is removed but is still being accessed
+# 已打开的文件被删除但仍被访问时会产生 .nfs 文件
 .nfs*
 
-# Log files created by default by the nohup command
+# nohup 命令默认创建的日志文件
 nohup.out

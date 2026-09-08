@@ -1,4 +1,6 @@
-# General
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
+# 常规
 .DS_Store
 .localized
 __MACOSX/
@@ -6,10 +8,10 @@ __MACOSX/
 .LSOverride
 Icon[]
 
-# Resource forks
+# 资源分支(resource fork)
 ._*
 
-# Files and directories that might appear in the root of a volume
+# 可能出现在卷根目录的文件与目录
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -27,14 +29,14 @@ Icon[]
 lost+found
 .HFS+ Private Directory Data[]
 
-# Directories potentially created on remote AFP share
+# 远程 AFP 共享上可能创建的目录
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# Mac OS 6 to 9
+# Mac OS 6 至 9
 Desktop DB
 Desktop DF
 TheFindByContentFolder
@@ -43,13 +45,13 @@ TheVolumeSettingsFolder
 .FBCSemaphoreFile
 .FBCLockFolder
 
-# Quota system
+# 磁盘配额系统
 .quota.group
 .quota.user
 .quota.ops.group
 .quota.ops.user
 
-# TimeMachine
+# TimeMachine 备份
 Backups.backupdb
 .MobileBackups
 .MobileBackups.trash
