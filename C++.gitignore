@@ -1,49 +1,51 @@
-# Prerequisites
+# 🌐 本文档由 github/gitignore (https://github.com/github/gitignore) 翻译,英文原版见原项目。
+
+# 前置依赖文件
 *.d
 
-# Compiled Object files
+# 编译产生的目标文件
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# 预编译头
 *.gch
 *.pch
 
-# Linker files
+# 链接器文件
 *.ilk
 
-# Debugger Files
+# 调试器文件
 *.pdb
 
-# Compiled Dynamic libraries
+# 编译产生的动态库
 *.so
 *.dylib
 *.dll
 *.so.*
 
-# Fortran module files
+# Fortran 模块文件
 *.mod
 *.smod
 
-# Compiled Static libraries
+# 编译产生的静态库
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# 可执行文件
 *.exe
 *.out
 *.app
 
-# Build directories
+# 构建目录
 build/
 Build/
 build-*/
 
-# CMake generated files
+# CMake 生成文件
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
@@ -51,7 +53,7 @@ Makefile
 install_manifest.txt
 compile_commands.json
 
-# Temporary files
+# 临时文件
 *.tmp
 *.log
 *.bak
@@ -60,9 +62,9 @@ compile_commands.json
 # vcpkg
 vcpkg_installed/
 
-# debug information files
+# 调试信息文件
 *.dwo
 
-# test output & cache
+# 测试输出与缓存
 Testing/
 .cache/
