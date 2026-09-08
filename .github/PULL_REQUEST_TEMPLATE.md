@@ -1,32 +1,33 @@
-### Link to the application or project's homepage
+> 🌐 本文档由 [github/gitignore](https://github.com/github/gitignore) 翻译,英文原版见原项目。
 
-_TODO_
+### 应用程序或项目的官方主页链接
+
+_待填写_
 <!---
-Link to the project or application's homepage.
+请附上项目或应用程序官方主页的链接。
 --->
 
-### Reasons for making this change
+### 做出此改动的原因
 
-_TODO_
+_待填写_
 <!---
-Please provide some background for this change.
+请为这项改动提供一些背景说明。
 --->
 
-### Links to documentation supporting these rule changes
+### 支持这些规则改动的文档链接
 
-_TODO_
+_待填写_
 <!---
-Link to the project docs, any existing .gitignore files that project may have in its own repo, etc
+请附上项目文档、该项目自身仓库中已有的 .gitignore 文件等链接。
 --->
 
-### Merge and Approval Steps
+### 合并与批准步骤
 
 <!---
-Please ensure you accomplish these tasks in order to get your contribution accepted
+请确保完成以下事项,以便你的贡献被接受
 --->
-- [ ] I have read the [contribution guidelines](https://github.com/github/gitignore/tree/main?tab=readme-ov-file#contributing-guidelines) and understand my PR will be closed if it doesn't meet these guidelines
+- [ ] 我已阅读[贡献指南](https://github.com/github/gitignore/tree/main?tab=readme-ov-file#contributing-guidelines),并理解若不符合这些指南,我的 PR 将被关闭
 
 <!---
-Once done, please wait for a GitHub maintainer to review your PR and if necessary,
-work with them to address any findings.
+完成后,请等待 GitHub 维护者审核你的 PR,如有需要,请配合处理审核意见。
 --->

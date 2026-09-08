@@ -1,49 +1,25 @@
-# Contributing guidelines
+> 🌐 本文档由 [github/gitignore](https://github.com/github/gitignore) 翻译,英文原版见原项目。
 
-We’d love you to help us improve this project. To help us keep this collection
-high quality, we request that contributions adhere to the following guidelines.
-Any contributions that don't meet these guidelines will be closed.
+# 贡献指南
 
-- **Provide a link to the application or project’s homepage**. Unless it’s
-  extremely popular, there’s a chance the maintainers don’t know about or use
-  the language, framework, editor, app, or project your change applies to.
+我们非常欢迎你帮助改进本项目。为了保持这份模板合集的高质量,我们要求所有贡献遵守以下准则。不符合准则的贡献将被直接关闭。
 
-- **Provide a reason for making this change**. Even if it seems self-evident,
-  please take a sentence or two to tell us why your change or addition should
-  happen. It’s especially helpful to articulate why this change applies to
-  *everyone* who works with the applicable technology, rather than just you or
-  your team.
+- **提供应用程序或项目的官方主页链接**。除非它非常流行,否则维护者很可能不了解、也不使用你的改动所涉及的语言、框架、编辑器、应用或项目。
 
-- **Provide links to documentation** supporting the change you’re making.
-  Current, canonical documentation mentioning the files being ignored is best.
-  If documentation isn’t available to support your change, do the best you can
-  to explain what the files being ignored are for.
+- **说明做出此改动的原因**。即使看起来不言自明,也请用一两句话告诉我们为什么需要这项改动或新增。特别有用的是说明这项改动为什么适用于使用该技术的*所有人*,而不只是你或你的团队。
 
-- **Keep scope as limited as possible**. Changes should be as small as possible
-  and apply to the most specific gitignore template available for the target
-  application. For example: OS-specific ignore rules like `.DS_Store` are not
-  accepted anywhere but their specific gitignore, `Global/macOS.gitignore` in
-  this case.
+- **提供支持此改动的文档链接**。最好是提及所忽略文件的最新、权威的官方文档。如果找不到支持改动的文档,也请尽力解释这些被忽略的文件是做什么的。
 
-- **Only modify *one template* per pull request**. This helps keep pull
-  requests and feedback focused on a specific project or technology.
+- **尽量收窄改动范围**。改动应尽可能小,并落在目标应用最具体的那份 gitignore 模板里。例如:`.DS_Store` 这类操作系统专属的忽略规则,只接受放进它专属的 `Global/macOS.gitignore`,其他任何地方都不收。
 
-- **Add new rules to the most appropriate existing section**. Please ensure
-  your contribution does not create duplicate sections or add rules in
-  unrelated sections.
+- **每个 Pull Request 只修改*一个模板***。这有助于让 Pull Request 和反馈聚焦在具体的项目或技术上。
 
-- **No duplicate rules**. It's easy to do, but it creates confusion and
-  introduces the risk of one or the other being missed in an update.
+- **把新规则加入最合适的现有小节**。请确保你的贡献不会创建重复的小节,也不会把规则加进无关的小节。
 
-In general, the more you can do to help us understand the change you’re making,
-the more likely we’ll be to accept your contribution quickly.
+- **不要出现重复规则**。这很容易发生,但重复会造成混乱,并带来更新时漏掉其中一条的风险。
 
-If a template is mostly a list of files installed by a particular version of
-some software (e.g. a PHP framework) then it's brittle and probably no more
-helpful than a simple `ls`. If it's not possible to curate a small set of
-useful rules, then the template is not a good fit for this collection.
+总的来说,你越能帮我们理解这项改动,你的贡献就越有可能被快速接受。
 
-Please also understand that we can’t list every tool that ever existed.
-Our aim is to curate a collection of the *most common and helpful* templates,
-not to make sure we cover every project possible. If we choose not to
-include your language, tool, or project, it’s not because it’s not awesome.
+如果某个模板基本上只是某个软件特定版本(例如某个 PHP 框架)所安装文件的清单,那它就很脆弱,可能并不比一个简单的 `ls` 更有用。如果无法精选出一小组有用的规则,那这个模板就不适合收进这份合集。
+
+另外请理解,我们不可能收录曾经存在过的每一个工具。我们的目标是精选出*最常见、最有帮助*的模板,而不是保证覆盖所有项目。如果我们没有选择收录你的语言、工具或项目,并不代表它不够优秀。
